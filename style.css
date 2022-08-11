@@ -1,0 +1,21 @@
+body{
+    background: #333;
+}
+.progress{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    transform: scale(4);
+}
+.loading{
+    transition: all 0.2s ease-in-out;
+    color: #eee;
+}
+.progress-circle{
+    transition: all 0.2s ease-in-out;
+    stroke-dasharray: 188.1910858154297;
+    stroke-dashoffset: 188.1910858154297;
+}
